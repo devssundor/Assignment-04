@@ -28,7 +28,38 @@
     </style>
     <script src="./script.js"></script>
 </head>
-<body>
+<body class="bg-[#F8FAFC] px-8 md:px-36 lg:px-60 py-14 mx-auto">
+    <section>
+        <h1 class="text-3xl text-[#002C5C] font-bold mb-5">
+        Job Application Tracker
+      </h1>
+
+      <div class="flex flex-row gap-4">
+        <div
+          class="bg-base-100 shadow-sm p-5 my-auto rounded-md w-full text-center lg:text-left"
+        >
+          <h2 class="text-md font-medium text-[#323B49]">Total</h2>
+          <p id="total-amount" class="text-3xl font-bold text-[#002C5C]"></p>
+        </div>
+        <div
+          class="bg-base-100 shadow-sm p-5 my-auto rounded-md w-full text-center lg:text-left"
+        >
+          <h2 class="text-md font-medium text-[#323B49]">Interview</h2>
+          <p id="interview-amount" class="text-3xl font-bold text-green-600">
+            0
+          </p>
+        </div>
+        <div
+          class="bg-base-100 shadow-sm p-5 my-auto rounded-md w-full text-center lg:text-left"
+        >
+          <h2 class="text-md font-medium text-[#323B49]">Rejected</h2>
+          <p id="rejected-amount" class="text-3xl font-bold text-red-600">0</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="my-8 border-[#E6E7E9]" />
+
     
 </body>
 </html>
